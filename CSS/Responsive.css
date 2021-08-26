@@ -35,6 +35,9 @@
     .changer {
       width: 100%;
     }
+    .education {
+      flex: auto;
+    }
     
         
     /* Add CSS for header-right */
