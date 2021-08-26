@@ -1,0 +1,61 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+.welcome h2 {
+  font-size: 30px;
+}
+
+  .experience h3 {
+      font-size: 35px;
+      }
+.experience h4, p {
+  font-size: 25px;
+}
+.description {
+  font-size: 20px;
+}
+.header-right a {
+  margin-top: 30px;
+  padding: 10px 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-size: smaller;
+}
+.header-right a:hover {
+  background-color: red;
+}
+
+
+
+  }
+  
+  /* For Smartphones 670px*/
+  @media all and (max-width: 670px) {
+    .changer {
+      width: 100%;
+    }
+    
+        
+    /* Add CSS for header-right */
+    .header-right {
+      display: none;
+    }
+    
+    /* Add CSS for menu-icon */
+    .menu-icon {
+      display: block;
+    }
+    .welcome p {
+      font-size: 22px;
+    }
+.about p {
+  text-align: justify;
+  font-size: 22px;
+}
+
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px; padding-top: 25px;}
+
+
+  }
