@@ -1,12 +1,17 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
 .welcome h2 {
-  font-size: 30px;
+  font-size: 50px;
 }
-
-  .experience h3 {
-      font-size: 35px;
-      }
+.education {
+  margin-right: 40px;
+}
+.experiences {
+  padding-right: 20px;
+}
+.experience h3 {
+  font-size: 35px;
+}
 .experience h4, p {
   font-size: 25px;
 }
@@ -35,11 +40,21 @@
     .changer {
       width: 100%;
     }
-    .education {
-      flex: auto;
+    .welcome h2 {
+      font-size: 30px;
     }
     
-        
+    .education {
+      flex: auto;
+      position: relative;
+      margin-right: 40px;
+      flex-direction: column;
+    }
+    .experience {
+      flex: 1;
+      position: relative;
+      flex-direction: column;
+    }
     /* Add CSS for header-right */
     .header-right {
       display: none;
